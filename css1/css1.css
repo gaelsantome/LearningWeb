@@ -1,0 +1,19 @@
+h1{
+
+    color: rgb(255,255,255);
+    background-color:#e22e2b;
+}
+p{
+    border: 1px solid black;
+    width: 750 px;
+    font-size: 1.5em;
+}
+ul{
+color: green ;
+}
+li{
+    color: blue;
+}
+span{
+    display: none;
+}

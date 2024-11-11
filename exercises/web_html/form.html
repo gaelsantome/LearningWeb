@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Historia de la Computación</title>
+</head>
+
+<body>
+    <h1>Formulario para aprender más sobre la Computación</h1>
+    <form action="/submit_form" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="comentarios">Comentarios:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"
+            placeholder="Escribe tus comentarios aquí..."></textarea><br><br>
+
+        <label for="interes">¿Te interesa aprender más sobre computación?</label><br>
+        <input type="radio" id="si" name="interes" value="Sí" required>
+        <label for="si">Sí</label><br>
+        <input type="radio" id="no" name="interes" value="No">
+        <label for="no">No</label><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+   
+    <br />
+    <button ><a href="/exercises/web_html/Info.html">Información sobre la historia de los ordenadores</a></button>
+    <button><a href="/exercises/web_html/table.html">Ver tabla de hitos</a></button>
+
+
+</body>
+
+</html>
