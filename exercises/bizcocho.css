@@ -1,0 +1,58 @@
+
+        
+   
+img{
+    width: 300px;
+    margin: auto;
+    display: block;
+    background-color: rgb(136, 81, 18);
+    border-style: inset;
+    border-radius: 10px;
+}
+
+
+h1 {
+       
+        text-align: center;
+        border-style: inset;
+        border-radius: 0px;
+        padding: 0;
+        color: black;
+        margin-right: 400px;
+        margin-left: 400px;
+       
+}
+h2 {
+    text-align: center;
+    color: black
+}
+
+#header {
+    color: blue
+}
+
+ul{
+
+
+        background-color: rgb(255, 255, 255);
+        border-style: inset;
+        border-radius: 0px;
+        padding: 0;
+        color: black;
+        margin-right: 600px;
+        margin-left: 600px;
+       
+        
+}
+
+p{
+    background-color: rgb(255, 255, 255);
+        border-style: inset;
+        border-radius: 0px;
+        padding: 0;
+        color: black;
+        margin-right: 400px;
+        margin-left: 400px;
+        
+}
+
