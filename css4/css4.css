@@ -1,0 +1,38 @@
+.div {
+    border: 1px, solid black;
+    width: 250px;
+    
+}
+
+#container{
+    padding: 15px;
+    background-color: chocolate;
+    color: white;
+    position: relative;
+}
+
+#target{
+
+    display: none;
+
+    /*visibility: collapse;    para tablas*/
+    /*visibility: hidden;*/
+
+    /*position: fixed;
+    left: 50px;
+    top: 15px;
+    z-index: -1;*/
+}
+
+
+/*flotacion*/
+.child{
+    background-color: green;
+}
+.img1{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
