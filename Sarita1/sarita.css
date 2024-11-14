@@ -4,24 +4,24 @@ body {
     padding: 0;
 }
 
-/* Estilos para el encabezado */
+
 header {
-    background-color: #4CAF50;
-    /* Color para el encabezado */
+    background-color: #C8AE7E;
+    
     color: white;
     text-align: center;
     padding: 20px;
 }
 
-/* Estilos para la navegación */
+
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     padding: 0;
     margin: 0;
-    background-color: #333;
-    /* Color de fondo para el menú de navegación */
+    background-color: #C8AE7E;
+    
 }
 
 nav li {
@@ -39,88 +39,114 @@ nav a:hover {
     background-color: #575757;
 }
 
-/* Sección para la sección de favoritos */
+
 #favoritos {
-    background-color: #FFEB3B;
-    /* Color de fondo para la sección de favoritos */
+    background-color: #FAFDF3;
+   
     padding: 20px;
 }
+#favoritos h2 {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-/* Sección para la ropa de hombres */
+    
+}
+
+
 #hombres {
-    background-color: #2196F3;
-    /* Color de fondo para la sección de hombres */
+    background-color: #F5F5DD;
+   
     padding: 20px;
 }
+#hombres h2 {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
 
-/* Sección para la ropa de mujeres */
+
 #mujeres {
-    background-color: #F44336;
-    /* Color de fondo para la sección de mujeres */
+    background-color: #EAE3C9;
+   
     padding: 20px;
 }
+#mujeres h2 {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-/* Sección para la ropa de niños */
+    
+}
+
+
 #ninos {
-    background-color: #FF9800;
-    /* Color de fondo para la sección de niños */
+    background-color: #D2BD96;
+  
     padding: 20px;
 }
+#niños h2 {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-/* Estilos para las secciones de productos */
+   
+}
+
+
 section {
     padding: 20px;
+    text-align: center;
 }
 
 .product {
     display: inline-block;
-    width: 30%;
+    width: 150px;
     margin: 10px;
     text-align: center;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     background-color: white;
-    /* Fondo blanco */
-    border: 2px solid #ddd;
-    /* Borde suave alrededor del producto */
+    border: 1px solid #ddd;
     padding: 10px;
-    /* Espaciado dentro del contenedor */
-    border-radius: 8px;
-    /* Bordes redondeados */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Sombra sutil para darle profundidad */
-    transition: box-shadow 0.3s ease;
-    /* Transición suave para la sombra */
+    border-radius: 5px;
+    
 }
 
-/* Efecto al pasar el ratón sobre el producto */
+
 .product:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* Sombra más prominente al pasar el ratón */
+   
 }
 
 .product img {
     max-width: 100%;
     border-bottom: 2px solid #ddd;
-    /* Línea debajo de la imagen para separación */
+   
     margin-bottom: 10px;
-    /* Espaciado debajo de la imagen */
+   
 }
 
 .product h3 {
     margin: 10px 0;
-    /* Margen superior e inferior para el título */
+    
     font-size: 1.2em;
-    /* Un poco más grande el nombre del producto */
+   
 }
 
 .product p {
     font-size: 1.1em;
-    /* Tamaño de fuente para el precio */
+    
     color: #555;
-    /* Color gris suave para el precio */
+    
 }
 
-/* Estilos para el pie de página */
+
 footer {
     background-color: #333;
     /* Color de fondo para el pie de página */
